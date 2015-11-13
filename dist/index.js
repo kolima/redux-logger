@@ -116,7 +116,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          return actn;
 	        } : _options$actionTransformer;
 
-	        var console = logger || window.console;
+	        var console = logger || console;
 
 	        // exit if console undefined
 	        if (typeof console === "undefined") {
